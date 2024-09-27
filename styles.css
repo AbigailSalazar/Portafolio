@@ -55,6 +55,7 @@ nav {
   gap: 1em;
   height: 100%;
   align-items: center;
+  list-style-type: none;
 }
 
 nav a {
@@ -99,7 +100,7 @@ h3 {
   gap: 1rem;
   width: 100%;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 10em;
 }
 
 #introduction p {
