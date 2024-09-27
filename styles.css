@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primario: #f3f7ec;
+  --color-primario: white;
   --color-secundario: #006989;
   --color-terciario: #e88d67;
   --fuente-titulo: "Krona One", sans-serif;
@@ -18,6 +18,7 @@ body {
   flex-direction: column;
   font-family: var(--fuente-principal);
   color: var(--color-secundario);
+  background-color: var(--color-primario);
 }
 
 main {
@@ -61,7 +62,7 @@ h3 {
 }
 
 .highlight {
-  color: var(--color-terciario);
+  color: var(--color-secundario);
 }
 
 .introduction {
@@ -85,7 +86,6 @@ h3 {
 
 .tech_icon {
   height: 5rem;
-  background-color: white;
   padding: 1rem;
   object-fit: cover;
 }
@@ -100,8 +100,8 @@ h3 {
   position: relative;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border-top: 0.2rem solid var(--color-terciario);
-  padding: 1rem;
+  border-top: 0.2rem solid var(--color-secundario);
+  padding: 2rem;
 }
 
 .projects__project__code {
@@ -119,3 +119,17 @@ footer {
   padding: 2rem;
   font-size: 1.3rem;
 }
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-primario: #006989;
+    --color-secundario: #f3f7ec;
+    --color-terciario: #e88d67;
+    --fuente-titulo: "Krona One", sans-serif;
+    --fuente-principal: "Montserrat", sans-serif;
+  }
+
+  .techs {
+    background-color: white;
+  }
+} */
