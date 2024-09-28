@@ -188,6 +188,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 3em;
+  margin-top: 2em;
 }
 
 input,
@@ -235,7 +236,7 @@ footer {
     height: auto;
   }
   section {
-    scroll-margin-top: 12em;
+    scroll-margin-top: 10em;
   }
 
   .skills__container,
