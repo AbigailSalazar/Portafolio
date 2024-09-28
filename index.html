@@ -34,6 +34,7 @@
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -178,7 +179,18 @@
 
       <section id="education" aria-labelledby="education-heading">
         <h2 id="education-heading">Education</h2>
-        <!-- Contenido de educación -->
+        <div class="education__container">
+          <div class="education__item">
+            <img src="/assets/highschool.png" alt="highschool icon" />
+            <h3>Programming course</h3>
+            <p>Technical Highschool 2017 - 2020</p>
+          </div>
+          <div class="education__item">
+            <img src="/assets/graduation-hat.png" alt="graduation hat icon" />
+            <h3>Software engineering</h3>
+            <p>College 2020 - 2024</p>
+          </div>
+        </div>
       </section>
       <section id="projects" aria-labelledby="projects-heading">
         <h2>Projects</h2>
@@ -433,7 +445,56 @@
           </div>
         </article>
       </section>
+      <section id="contact" aria-labelledby="education-heading">
+        <h2>Contact</h2>
+        <form onsubmit="sendEmail(event)" class="contact__container">
+          <div class="rowcontainer">
+            <input
+              id="name"
+              name="Name"
+              type="text"
+              placeholder="Name"
+              required
+              maxlength="50"
+            />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Email"
+              maxlength="254"
+              required
+            />
+          </div>
+
+          <input
+            id="topic"
+            name="Topic"
+            type="text"
+            placeholder="Topic"
+            maxlength="50"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your messege here"
+            maxlength="300"
+            rows="3"
+            required
+          ></textarea>
+          <button
+            id="submitButton"
+            class="contact__button"
+            type="submit"
+            disabled
+          >
+            Send
+          </button>
+        </form>
+      </section>
     </main>
+    <script src="/scripts/index.js"></script>
     <footer>
       <p>Created by Andrea Salazar, 2024.</p>
       <a href="https://www.flaticon.com/" title="iconos">Icons by Flaticon</a>
