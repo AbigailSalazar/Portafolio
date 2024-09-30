@@ -231,6 +231,39 @@ textarea:focus {
   background-color: gray;
 }
 
+#submenu {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  gap: 1em;
+  padding: 0.3em;
+}
+
+.submenu__up {
+  text-align: center;
+}
+
+.language__container {
+  display: flex;
+  gap: 0.5em;
+  align-items: end;
+}
+
+.lenguage__item {
+  border: none;
+  font-family: var(--fuente-principal);
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  padding: 0.5em;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.lenguage__item:hover {
+  background-color: var(--color-terciario);
+}
+
 footer {
   text-align: center;
   padding: 2rem;
