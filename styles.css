@@ -363,16 +363,30 @@ footer {
   }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --color-primario: #006989;
+    --color-primario: rgb(34, 34, 34);
     --color-secundario: #f3f7ec;
     --color-terciario: #e88d67;
     --fuente-titulo: "Krona One", sans-serif;
     --fuente-principal: "Montserrat", sans-serif;
   }
 
+  .introduction__profile-pic {
+    background-color: var(--color-secundario);
+    border-radius: 50%;
+  }
+
+  ::placeholder {
+    color: var(--color-secundario);
+    opacity: 1; /* Firefox */
+  }
+
+  ::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: var(--color-secundario);
+  }
   .techs {
     background-color: white;
   }
-} */
+}
