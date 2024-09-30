@@ -237,7 +237,10 @@ textarea:focus {
   bottom: 0;
   right: 0;
   gap: 1em;
-  padding: 0.3em;
+  padding: 0.2em;
+  width: 100%;
+  justify-content: end;
+  background-color: var(--color-primario);
 }
 
 .submenu__up {
@@ -255,7 +258,7 @@ textarea:focus {
   font-family: var(--fuente-principal);
   background-color: var(--color-secundario);
   color: var(--color-primario);
-  padding: 0.5em;
+  padding: 0.2em;
   font-size: 0.9em;
   cursor: pointer;
 }
@@ -268,6 +271,7 @@ footer {
   text-align: center;
   padding: 2rem;
   font-size: 1.3rem;
+  margin-bottom: 2em;
 }
 
 @media (max-width: 920px) {
@@ -278,6 +282,10 @@ footer {
   }
   section {
     scroll-margin-top: 10em;
+  }
+  .nav__links:nth-child(2) {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .about-me__text {
