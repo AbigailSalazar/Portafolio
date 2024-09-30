@@ -29,5 +29,5 @@ The site is optimized for all devices, from desktops to mobile phones.
 
 ### 🚀 Live Demo
 
-Check out the live version of my portfolio here.
+Check out the live version of my portfolio <a href="https://abigailsalazar.github.io/Portafolio/" target="_blank">here</a>.
 
