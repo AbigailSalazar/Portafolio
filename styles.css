@@ -102,10 +102,6 @@ h3 {
   padding-bottom: 1rem;
 }
 
-h3 {
-  font-size: 1.5em;
-}
-
 .highlight {
   color: var(--color-secundario);
 }
@@ -223,6 +219,7 @@ textarea {
   border-bottom: 3px solid var(--color-secundario);
   font-family: var(--fuente-principal);
   font-size: 1.2em;
+  color: var(--color-secundario);
 }
 
 input:focus,
@@ -244,7 +241,7 @@ textarea:focus {
 }
 .contact__button:disabled {
   cursor: default;
-  background-color: gray;
+  background-color: var(--color-secundario);
 }
 
 #submenu {
@@ -336,7 +333,7 @@ footer {
   }
 
   h3 {
-    max-width: 78%;
+    max-width: 76%;
     text-wrap: wrap;
   }
 }
@@ -362,6 +359,16 @@ footer {
   .education__item {
     width: 100%;
   }
+
+  .project__detail {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects__project__code {
+    width: 200px;
+    margin: 0;
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px) {
@@ -371,9 +378,7 @@ footer {
   .projects__project {
     padding: 0;
   }
-  h3 {
-    max-width: 100%;
-  }
+
   main {
     width: 90%;
   }
