@@ -59,11 +59,13 @@ nav {
 }
 
 a {
-  text-decoration-color: var(--color-terciario);
-  text-decoration-thickness: 0.2rem;
+  text-decoration: none;
+  border-bottom: 0.1rem solid var(--color-terciario);
   color: var(--color-secundario);
   font-weight: bold;
+  padding: 0.2rem;
   font-size: 1.3rem;
+  transition: color 0.1s ease-in-out;
 }
 
 a :visited {
@@ -90,10 +92,18 @@ h3 {
   font-family: var(--fuente-titulo);
   text-align: center;
 }
-
+h1,
+h2 {
+  color: var(--color-terciario);
+}
 h2,
 h3 {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 .highlight {
@@ -174,6 +184,12 @@ h3 {
 
 .projects__project__code {
   margin-left: auto;
+  border-bottom: none;
+  background-color: var(--color-secundario);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: var(--color-primario);
+  height: min-content;
 }
 
 .projects__project__img {
@@ -241,6 +257,7 @@ textarea:focus {
   width: 100%;
   justify-content: end;
   background-color: var(--color-primario);
+  padding: 0.5rem 2rem;
 }
 
 .submenu__up {
@@ -258,13 +275,16 @@ textarea:focus {
   font-family: var(--fuente-principal);
   background-color: var(--color-secundario);
   color: var(--color-primario);
-  padding: 0.2em;
+  padding: 0.3em;
   font-size: 0.9em;
+  font-weight: 600;
+  border-radius: 0.2rem;
   cursor: pointer;
+  transition: color 0.2s;
 }
 
 .lenguage__item:hover {
-  background-color: var(--color-terciario);
+  color: var(--color-terciario);
 }
 
 footer {
@@ -365,8 +385,8 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-primario: rgb(34, 34, 34);
-    --color-secundario: #f3f7ec;
+    --color-primario: #001a22;
+    --color-secundario: #e3ebee;
     --color-terciario: #e88d67;
     --fuente-titulo: "Krona One", sans-serif;
     --fuente-principal: "Montserrat", sans-serif;
