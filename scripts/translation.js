@@ -28,13 +28,13 @@ i18next.init(
           },
           introduction: {
             img: "Andrea's profile picture: Drawing of a person with headphones",
-            text: "Learning is one of my passions, I receantly graduated as a software engineer. Now I'm participating in Oracle ONE project in Alura Latam.",
+            text: "Always seeking new challenges, currently exploring the Oracle ONE project at Alura Latam to keep growing as a developer.",
             text2: "Technologies used in previous projects:",
           },
           about: {
             title: "About Me",
             description:
-              " My name is Andrea Salazar, I'm from Mexico, and I am 22 years old. I started coding in high school and continued this activity through college. I now consider technology one of my hobbies; I enjoy learning about new tools and software that emerge every year. I am interested in participating in innovative and creative projects that help people.",
+              "Recent software engineering graduate from Mexico, with a deep enthusiasm for coding since high school. Focused on joining innovative and creative projects that make a meaningful impact on people’s lives. Dedicated to crafting thoughtful, impactful solutions that makes a difference.",
           },
           skills: {
             title: "Skills",
@@ -78,12 +78,9 @@ i18next.init(
             },
             squadtrek: {
               title: '"SquadTrek " Group travel mobile app - 2023',
-              screenshot1:
-                "squadtreak app Screenshot of selecting travel ubication",
-              screenshot2:
-                "squadtreak app Screenshot of selecting travel dates",
-              screenshot3:
-                "squadtreak app Screenshot of sharing travel code for friends",
+              screenshot1: "squadtreak app Screenshot of selecting travel ubication",
+              screenshot2: "squadtreak app Screenshot of selecting travel dates",
+              screenshot3: "squadtreak app Screenshot of sharing travel code for friends",
               screenshot4: "squadtreak app Screenshot of travel details",
             },
             lovit: {
@@ -97,8 +94,7 @@ i18next.init(
           },
           contact: {
             title: "Contact",
-            details:
-              "Would you like to get in touch with me? Please fill out the form below, and I will respond as soon as possible.",
+            details: "Would you like to get in touch with me? Please fill out the form below, and I will respond as soon as possible.",
             name: "Name",
             email: "Email",
             topic: "Topic",
@@ -125,13 +121,13 @@ i18next.init(
           },
           introduction: {
             img: "Foto de perfil de Andrea: Dibujo de una persona con audífonos",
-            text: "Aprender es una de mis pasiones, recientemente me gradué como Ingeniera en software, Actualmente participo en el proyecto Oracle ONE en Alura Latam.",
-            text2: "Tecnologías que he usado en proyectos anteriores:",
+            text: "Siempre en busca de nuevos desafíos, actualmente explorando el proyecto Oracle ONE en Alura Latam para seguir creciendo como desarrolladora",
+            text2: "Tecnologías utilizadas en proyectos anteriores:",
           },
           about: {
             title: "Acerca de mí",
             description:
-              "Mi nombre es Andrea Salazar, soy de México y tengo 22 años. Empecé a programar en la preparatoria y continué esta actividad a lo largo de la universidad. Ahora considero la tecnología como uno de mis pasatiempos; disfruto de aprender nuevas herramientas y software que surgen año con año. Estoy interesada en participar en proyectos creativos e innovadores que ayuden a las personas.",
+              "Reciente graduada en ingeniería de software en México, con un gran entusiasmo por la programación desde la preparatoria. Enfocada en participar en proyectos innovadores y creativos que tengan un impacto significativo en la vida de las personas. Comprometida con la creación de soluciones que marquen la diferencia.",
           },
           skills: {
             title: "Habilidades",
@@ -167,24 +163,18 @@ i18next.init(
             },
             favquotes: {
               title: '"FavQuotes" guarda tus citas célebres favoritas - 2024',
-              screenshot:
-                "Captura de pantalla de la página principal de FavQuotes",
+              screenshot: "Captura de pantalla de la página principal de FavQuotes",
             },
             venvi: {
               title: '"Venvi" tienda online de segunda mano - 2024',
-              screenshot:
-                "Captura de pantalla de Venvi en la sección de productos",
+              screenshot: "Captura de pantalla de Venvi en la sección de productos",
             },
             squadtrek: {
               title: '"SquadTrek" aplicación móvil para viajes en grupo - 2023',
-              screenshot1:
-                "Captura de pantalla de squadtreak, selección de la ubicación del viaje",
-              screenshot2:
-                "Captura de pantalla de squadtreak, selección de las fechas del viaje",
-              screenshot3:
-                "Captura de pantalla de squadtreak, compartir código de viaje con amigos",
-              screenshot4:
-                "Captura de pantalla de squadtreak, detalles del viaje",
+              screenshot1: "Captura de pantalla de squadtreak, selección de la ubicación del viaje",
+              screenshot2: "Captura de pantalla de squadtreak, selección de las fechas del viaje",
+              screenshot3: "Captura de pantalla de squadtreak, compartir código de viaje con amigos",
+              screenshot4: "Captura de pantalla de squadtreak, detalles del viaje",
             },
             lovit: {
               title: '"lovit" Administrador de productos - 2023',
@@ -197,8 +187,7 @@ i18next.init(
           },
           contact: {
             title: "Contacto",
-            details:
-              "¿Te gustaría ponerte en contacto conmigo? Por favor llena el formulario a continuación, responderé tan pronto sea posible.",
+            details: "¿Te gustaría ponerte en contacto conmigo? Por favor llena el formulario a continuación, responderé tan pronto sea posible.",
             name: "Nombre",
             email: "Correo",
             topic: "Tema",
