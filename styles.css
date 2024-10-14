@@ -227,6 +227,10 @@ h3 {
   margin-top: 1rem;
 }
 
+.rowcontainer .projects__project__img {
+  max-width: 25%;
+}
+
 .contact__container {
   display: flex;
   flex-direction: column;
