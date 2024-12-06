@@ -64,6 +64,19 @@ i18next.init(
           projects: {
             title: "Projects",
             codelink: "Code",
+            spaceApp:{
+              title: "Space App, Space Galery - 2024",
+              screenshot: "Space App  main page screenshot",
+            },
+            aluraOrg:{
+              title: "Alura Org, Team Management - 2024",
+              screenshot: "Alura Org main page screenshot",
+            },
+            aluraGeek:{
+              title: "Alura Geek, Product Management - 2024",
+              screenshot: "Alura Geek  main page screenshot",
+              
+            },
             encrypter: {
               title: "Text Encrypter - 2024",
               screenshot: "text encrypter app screenshot",
@@ -157,6 +170,19 @@ i18next.init(
           projects: {
             title: "Proyectos",
             codelink: "Código",
+            spaceApp:{
+              title: "Space App, Galería de fotos del espacio - 2024",
+              screenshot: "Captura de pantalla de Space App",
+            },
+            aluraOrg:{
+              title: "Alura Org, Organiza equipos - 2024",
+              screenshot: "Captura de pantalla de Alura Org",
+            },
+            aluraGeek:{
+              title: "Alura Geek, administrador de productos - 2024",
+              screenshot: "Captura de pantalla de Alura Geek",
+              
+            },
             encrypter: {
               title: "Encriptador de texto - 2024",
               screenshot: "Captura de pantalla de Encriptador de texto",
