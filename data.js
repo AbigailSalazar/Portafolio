@@ -143,23 +143,6 @@ const projects = [
           "mysql"
         ],
         "translation-key": "projects.lovit"
-      },
-      {
-        "id": 1,
-        "title": "\"Faceboot\" simple social media - 2022",
-        "code-link": "https://github.com/RowBlackGhost005/Faceboot",
-        "img": [
-          {
-            "id": 0,
-            "path": "assets/img-projects/faceboot.png"
-          }
-        ],
-        "technologies": [
-          "java",
-          "java-fx",
-          "css"
-        ],
-        "translation-key": "projects.faceboot"
       }
       
 ]
