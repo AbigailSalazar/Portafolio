@@ -28,7 +28,7 @@ i18next.init(
           },
           introduction: {
             img: "Andrea's profile picture: Drawing of a person with headphones",
-            text: "Always seeking new challenges, currently exploring the Oracle ONE project at Alura Latam to keep growing as a developer.",
+            text: "Always seeking new challenges, currently learning Front-end development and keep growing as a developer.",
             text2: "Technologies used in previous projects:",
           },
           about: {
@@ -64,6 +64,10 @@ i18next.init(
           projects: {
             title: "Projects",
             codelink: "Code",
+            aluraFlix:{
+              title: "AluraFlix - 2025",
+              screenshot: "AluraFlix app  main page screenshot",
+            },
             spaceApp:{
               title: "Space App, Space Galery - 2024",
               screenshot: "Space App  main page screenshot",
@@ -115,7 +119,7 @@ i18next.init(
             button: "Send",
           },
           footer: {
-            mycredits: "Created by Andrea Salazar, 2024",
+            mycredits: "Created by Andrea Salazar, 2025",
             extcredits: "Icons by Flaticon",
           },
         },
@@ -134,13 +138,13 @@ i18next.init(
           },
           introduction: {
             img: "Foto de perfil de Andrea: Dibujo de una persona con audífonos",
-            text: "Siempre en busca de nuevos desafíos, actualmente explorando el proyecto Oracle ONE en Alura Latam para seguir creciendo como desarrolladora",
+            text: "Siempre en busca de nuevos desafíos, actualmente aprendiendo desarrollo Front-end y creciendo como desarrolladora",
             text2: "Tecnologías utilizadas en proyectos anteriores:",
           },
           about: {
             title: "Acerca de mí",
             description:
-              "Reciente graduada en ingeniería de software en México, con un gran entusiasmo por la programación desde la preparatoria. Enfocada en participar en proyectos innovadores y creativos que tengan un impacto significativo en la vida de las personas. Comprometida con la creación de soluciones que marquen la diferencia.",
+              "Reciente graduada en ingeniería de software en México, con un gran entusiasmo por la programación desde preparatoria. Enfocada en participar en proyectos innovadores y creativos que tengan un impacto significativo en la vida de las personas. Comprometida con creación de soluciones que marquen la diferencia.",
           },
           skills: {
             title: "Habilidades",
@@ -170,6 +174,10 @@ i18next.init(
           projects: {
             title: "Proyectos",
             codelink: "Código",
+            aluraFlix:{
+              title: "AluraFlix - 2025",
+              screenshot: "aptura de pantalla de AluraFlix",
+            },
             spaceApp:{
               title: "Space App, Galería de fotos del espacio - 2024",
               screenshot: "Captura de pantalla de Space App",
@@ -221,7 +229,7 @@ i18next.init(
             button: "Enviar",
           },
           footer: {
-            mycredits: "Creado por Andrea Salazar, 2024",
+            mycredits: "Creado por Andrea Salazar, 2025",
             extcredits: "Iconos por Flaticon",
           },
         },

@@ -1,4 +1,22 @@
 const projects = [
+  {
+    "id": 10,
+    "title": "AluraFlix - 2025",
+    "code-link": "https://github.com/AbigailSalazar/alura-flix",
+    "demo-link": "https://alura-flix-neon-eight.vercel.app/",
+    "img": [
+      {
+        "id": 0,
+        "path": "assets/img-projects/AluraFlix.png"
+      }
+    ],
+    "technologies": [
+      "react",
+      "javascript",
+      "css"
+    ],
+    "translation-key": "projects.aluraFlix"
+  },
     {
         "id": 9,
         "title": "Space App, Space Galery - 2024",
